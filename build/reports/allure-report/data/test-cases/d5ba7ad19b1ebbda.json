@@ -1,0 +1,57 @@
+{
+  "uid" : "d5ba7ad19b1ebbda",
+  "name" : "shouldSendInvalidCity()",
+  "fullName" : "card.TestCardDelivery.shouldSendInvalidCity",
+  "historyId" : "fefe4a3220363479ae5ed85472f24002",
+  "time" : {
+    "start" : 1637603470407,
+    "stop" : 1637603472128,
+    "duration" : 1721
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "LAPTOP-BNRB8SVH"
+  }, {
+    "name" : "thread",
+    "value" : "12928@LAPTOP-BNRB8SVH.Test worker(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "card.TestCardDelivery"
+  }, {
+    "name" : "testClass",
+    "value" : "card.TestCardDelivery"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldSendInvalidCity"
+  }, {
+    "name" : "suite",
+    "value" : "card.TestCardDelivery"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d5ba7ad19b1ebbda.json",
+  "parameterValues" : [ ]
+}

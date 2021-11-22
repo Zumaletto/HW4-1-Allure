@@ -1,0 +1,128 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element should be visible {[data-test-id=replan-notification]}\r\nElement: '<div class=\"notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\" data-test-id=\"replan-notification\" displayed:false></div>'\r\nActual value: hidden\r\nScreenshot: file:/C:/Users/GIT/IdeaProjects/HW4-1Allure/build/reports/tests/1637603450651.0.png\r\nPage source: file:/C:/Users/GIT/IdeaProjects/HW4-1Allure/build/reports/tests/1637603450651.0.html\r\nTimeout: 15 s.",
+      "children" : [ {
+        "name" : "shouldSendValidValueAndChangeDate()",
+        "uid" : "d551ccefd4943cd1",
+        "parentUid" : "0c8dd57015ba2e8fab734ff2214b090f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637603410419,
+          "stop" : 1637603450901,
+          "duration" : 40482
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0c8dd57015ba2e8fab734ff2214b090f"
+    }, {
+      "name" : "Element should be visible {[data-test-id=success-notification]}\r\nElement: '<div class=\"notification notification_status_ok notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\" data-test-id=\"success-notification\" displayed:false></div>'\r\nActual value: hidden\r\nScreenshot: file:/C:/Users/GIT/IdeaProjects/HW4-1Allure/build/reports/tests/1637603469982.1.png\r\nPage source: file:/C:/Users/GIT/IdeaProjects/HW4-1Allure/build/reports/tests/1637603469982.1.html\r\nTimeout: 15 s.",
+      "children" : [ {
+        "name" : "shouldSendValidNameWithЁ()",
+        "uid" : "8efaec01c655561e",
+        "parentUid" : "759b5c40063704e747f8a68aa6eb7c03",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637603451386,
+          "stop" : 1637603470142,
+          "duration" : 18756
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "759b5c40063704e747f8a68aa6eb7c03"
+    }, {
+      "name" : "Element not found {[data-test-id=name].input_invalid .input__sub}\r\nExpected: exact text \"Имя и Фамилия указаные неверно. Допустимы только русские буквы, пробелы и дефисы.\"\r\nScreenshot: file:/C:/Users/GIT/IdeaProjects/HW4-1Allure/build/reports/tests/1637603480496.2.png\r\nPage source: file:/C:/Users/GIT/IdeaProjects/HW4-1Allure/build/reports/tests/1637603480496.2.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[data-test-id=name].input_invalid .input__sub\"}",
+      "children" : [ {
+        "name" : "shouldSendInvalidName()",
+        "uid" : "89b9719d411bfb50",
+        "parentUid" : "add9ee2ba165c41ef6eb81bb7a9842c2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637603472191,
+          "stop" : 1637603480693,
+          "duration" : 8502
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "add9ee2ba165c41ef6eb81bb7a9842c2"
+    }, {
+      "name" : "Element not found {[data-test-id=phone].input_invalid .input__sub}\r\nExpected: exact text \"Телефон указан неверно. Должно быть 11 цифр, например, +79012345678.\"\r\nScreenshot: file:/C:/Users/GIT/IdeaProjects/HW4-1Allure/build/reports/tests/1637603489652.3.png\r\nPage source: file:/C:/Users/GIT/IdeaProjects/HW4-1Allure/build/reports/tests/1637603489652.3.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[data-test-id=phone].input_invalid .input__sub\"}",
+      "children" : [ {
+        "name" : "shouldSendInvalidPhoneNumber()",
+        "uid" : "a3098e156e396c1f",
+        "parentUid" : "3d6446bb1f2c5548e14d11d7b2581bf5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637603482623,
+          "stop" : 1637603489930,
+          "duration" : 7307
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3d6446bb1f2c5548e14d11d7b2581bf5"
+    }, {
+      "name" : "Element not found {[data-test-id=name].input_invalid .input__sub}\r\nExpected: exact text \"Имя и Фамилия указаные неверно. Допустимы только русские буквы, пробелы и дефисы.\"\r\nScreenshot: file:/C:/Users/GIT/IdeaProjects/HW4-1Allure/build/reports/tests/1637605854830.0.png\r\nPage source: file:/C:/Users/GIT/IdeaProjects/HW4-1Allure/build/reports/tests/1637605854830.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[data-test-id=name].input_invalid .input__sub\"}",
+      "children" : [ {
+        "name" : "shouldSendInvalidName()",
+        "uid" : "31f2460f0fd9e03d",
+        "parentUid" : "1a52786ab828f5dbfab6d2641052f8db",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637605829085,
+          "stop" : 1637605855161,
+          "duration" : 26076
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1a52786ab828f5dbfab6d2641052f8db"
+    }, {
+      "name" : "Element should be visible {[data-test-id=success-notification]}\r\nElement: '<div class=\"notification notification_status_ok notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\" data-test-id=\"success-notification\" displayed:false></div>'\r\nActual value: hidden\r\nScreenshot: file:/C:/Users/GIT/IdeaProjects/HW4-1Allure/build/reports/tests/1637605948425.0.png\r\nPage source: file:/C:/Users/GIT/IdeaProjects/HW4-1Allure/build/reports/tests/1637605948425.0.html\r\nTimeout: 15 s.",
+      "children" : [ {
+        "name" : "shouldSendValidNameWithЁ()",
+        "uid" : "1a9ce6ea50f4043b",
+        "parentUid" : "f2b93a4ab610dd2baf2bf4d8f6d5dbbe",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637605894138,
+          "stop" : 1637605948992,
+          "duration" : 54854
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f2b93a4ab610dd2baf2bf4d8f6d5dbbe"
+    }, {
+      "name" : "Element not found {[data-test-id=phone].input_invalid .input__sub}\r\nExpected: exact text \"Телефон указан неверно. Должно быть 11 цифр, например, +79012345678.\"\r\nScreenshot: file:/C:/Users/GIT/IdeaProjects/HW4-1Allure/build/reports/tests/1637606243356.0.png\r\nPage source: file:/C:/Users/GIT/IdeaProjects/HW4-1Allure/build/reports/tests/1637606243356.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[data-test-id=phone].input_invalid .input__sub\"}",
+      "children" : [ {
+        "name" : "shouldSendInvalidPhoneNumber()",
+        "uid" : "6b48e4ee27b40238",
+        "parentUid" : "4d1c86e270af99c373aafe3c9b88047d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637606207660,
+          "stop" : 1637606243915,
+          "duration" : 36255
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4d1c86e270af99c373aafe3c9b88047d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

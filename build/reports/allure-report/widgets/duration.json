@@ -1,0 +1,121 @@
+[ {
+  "uid" : "a3098e156e396c1f",
+  "name" : "shouldSendInvalidPhoneNumber()",
+  "time" : {
+    "start" : 1637603482623,
+    "stop" : 1637603489930,
+    "duration" : 7307
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a9ce6ea50f4043b",
+  "name" : "shouldSendValidNameWithЁ()",
+  "time" : {
+    "start" : 1637605894138,
+    "stop" : 1637605948992,
+    "duration" : 54854
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d551ccefd4943cd1",
+  "name" : "shouldSendValidValueAndChangeDate()",
+  "time" : {
+    "start" : 1637603410419,
+    "stop" : 1637603450901,
+    "duration" : 40482
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "91fc12941b963279",
+  "name" : "shouldSendInvalidCity()",
+  "time" : {
+    "start" : 1637605714506,
+    "stop" : 1637605730829,
+    "duration" : 16323
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2064397e7c0b7253",
+  "name" : "shouldSendEmptyForm()",
+  "time" : {
+    "start" : 1637605675678,
+    "stop" : 1637605692303,
+    "duration" : 16625
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "583f80e9e5edf92c",
+  "name" : "shouldSendValidValueAndChangeDate()",
+  "time" : {
+    "start" : 1637605619025,
+    "stop" : 1637605652606,
+    "duration" : 33581
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d3985dc7681d3363",
+  "name" : "shouldSendEmptyForm()",
+  "time" : {
+    "start" : 1637603480786,
+    "stop" : 1637603482509,
+    "duration" : 1723
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8efaec01c655561e",
+  "name" : "shouldSendValidNameWithЁ()",
+  "time" : {
+    "start" : 1637603451386,
+    "stop" : 1637603470142,
+    "duration" : 18756
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "31f2460f0fd9e03d",
+  "name" : "shouldSendInvalidName()",
+  "time" : {
+    "start" : 1637605829085,
+    "stop" : 1637605855161,
+    "duration" : 26076
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d5ba7ad19b1ebbda",
+  "name" : "shouldSendInvalidCity()",
+  "time" : {
+    "start" : 1637603470407,
+    "stop" : 1637603472128,
+    "duration" : 1721
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "89b9719d411bfb50",
+  "name" : "shouldSendInvalidName()",
+  "time" : {
+    "start" : 1637603472191,
+    "stop" : 1637603480693,
+    "duration" : 8502
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b48e4ee27b40238",
+  "name" : "shouldSendInvalidPhoneNumber()",
+  "time" : {
+    "start" : 1637606207660,
+    "stop" : 1637606243915,
+    "duration" : 36255
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
