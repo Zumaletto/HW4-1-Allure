@@ -1,4 +1,4 @@
-package card;
+package ru.netology.card;
 
 import com.github.javafaker.Faker;
 
