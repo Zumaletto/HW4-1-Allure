@@ -32,4 +32,4 @@ java -jar app-card-delivery.jar
 
 3.[Поле "Мобильный телефон" не выдает сообщение об ошибке при вводе невалидного телефона](https://github.com/Zumaletto/HW2-3-DeliveryNewDate/issues/3)
 
-Результат отчета [Allure](http://localhost:63342/HW4-1Allure/build/reports/allure-report/index.html?_ijt=jetmpidt1845b5fourmv7c7tlb&_ij_reload)
+Результат отчета [Allure](https://github.com/Zumaletto/HW4-1-Allure/tree/master/build/reports/allure-report)
