@@ -40,7 +40,8 @@ public class TestCardDelivery {
 
     @Test
     @Order(1)
-    void shouldSendValidValueAndChangeDate() {
+        void shouldSendValidValueAndChangeDate() {
+
         $("[data-test-id=city] .input__control").sendKeys(city);
         $("[data-test-id=date] .input__control").doubleClick().sendKeys(Keys.DELETE);
         $("[data-test-id=date] .input__control").doubleClick().sendKeys(dataGenerator.getDate(5));
@@ -70,6 +71,7 @@ public class TestCardDelivery {
     @Test
     @Order(2)
     void shouldSendEmptyForm() {
+
         $("[data-test-id=agreement] .checkbox__box").click();
         $("[class=button__text]").click();
         $(withText("Поле обязательно для заполнения"))
@@ -79,6 +81,7 @@ public class TestCardDelivery {
     @Test
     @Order(3)
     void shouldSendInvalidCity() {
+
         $("[data-test-id=city] .input__control").sendKeys("Petersburg");
         $("[class=button__text]").click();
         $("[data-test-id=city].input_invalid .input__sub")

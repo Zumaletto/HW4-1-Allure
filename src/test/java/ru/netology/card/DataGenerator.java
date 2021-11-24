@@ -22,7 +22,7 @@ public class DataGenerator {
         String[] city = {
                 "Санкт-Петербург", "Москва", "Смоленск",
                 "Екатеринбург", "Челябинск", "Улан-Удэ", "Мурманск",
-                "Краснодар", "Калуга"};
+                "Краснодар", "Калуга", "Калининград"};
         int rnd = new Random().nextInt(city.length);
         return city[rnd];
     }
