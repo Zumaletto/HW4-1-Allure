@@ -26,10 +26,10 @@ java -jar app-card-delivery.jar
 ### Результаты тестирования
 В ходе тестирования были выявлены ошибки приложения. По ошибкам заведены issue:
 
-1.[Поле "Фамилия Имя" допускает ввод только имен без ограничений](https://github.com/Zumaletto/HW2-3-DeliveryNewDate/issues/1)
+1.[Поле "Фамилия Имя" допускает ввод только имен без ограничений](https://github.com/Zumaletto/HW4-1-Allure/issues/1)
 
-2.[Фамилия с "Ё" не проходит валидацию в поле "Фамилия Имя"](https://github.com/Zumaletto/HW2-3-DeliveryNewDate/issues/2)
+2.[Фамилия с "Ё" не проходит валидацию в поле "Фамилия Имя"](https://github.com/Zumaletto/HW4-1-Allure/issues/2)
 
-3.[Поле "Мобильный телефон" не выдает сообщение об ошибке при вводе невалидного телефона](https://github.com/Zumaletto/HW2-3-DeliveryNewDate/issues/3)
+3.[Поле "Мобильный телефон" не выдает сообщение об ошибке при вводе невалидного телефона](https://github.com/Zumaletto/HW4-1-Allure/issues/3)
 
-Результат отчета [Allure](http://localhost:63342/HW4-1Allure/build/reports/allure-report/index.html?_ijt=jetmpidt1845b5fourmv7c7tlb&_ij_reload)
+Результат отчета [Allure](http://192.168.0.26:55849/index.html)

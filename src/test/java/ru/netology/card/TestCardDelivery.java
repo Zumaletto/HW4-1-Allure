@@ -1,8 +1,9 @@
 package ru.netology.card;
 
 import com.codeborne.selenide.Condition;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import com.codeborne.selenide.logevents.SelenideLogger;
+import io.qameta.allure.selenide.AllureSelenide;
+import org.junit.jupiter.api.*;
 import org.openqa.selenium.Keys;
 
 import java.time.Duration;
@@ -14,6 +15,7 @@ import static com.codeborne.selenide.Selectors.withText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class TestCardDelivery {
 
     private DataGenerator dataGenerator = new DataGenerator();
@@ -21,12 +23,23 @@ public class TestCardDelivery {
     String name = dataGenerator.getName();
     String phone = dataGenerator.getPhone();
 
+    @BeforeAll
+    static void setUpAll() {
+        SelenideLogger.addListener("allure", new AllureSelenide());
+    }
+
+    @AfterAll
+    static void tearDownAll() {
+        SelenideLogger.removeListener("allure");
+    }
+
     @BeforeEach
     void setupClass() {
         open("http://localhost:9999/");
     }
 
     @Test
+    @Order(1)
     void shouldSendValidValueAndChangeDate() {
         $("[data-test-id=city] .input__control").sendKeys(city);
         $("[data-test-id=date] .input__control").doubleClick().sendKeys(Keys.DELETE);
@@ -55,6 +68,7 @@ public class TestCardDelivery {
     }
 
     @Test
+    @Order(2)
     void shouldSendEmptyForm() {
         $("[data-test-id=agreement] .checkbox__box").click();
         $("[class=button__text]").click();
@@ -63,6 +77,7 @@ public class TestCardDelivery {
     }
 
     @Test
+    @Order(3)
     void shouldSendInvalidCity() {
         $("[data-test-id=city] .input__control").sendKeys("Petersburg");
         $("[class=button__text]").click();
@@ -71,6 +86,7 @@ public class TestCardDelivery {
     }
 
     @Test
+    @Order(4)
     void shouldSendInvalidName() {
 
         $("[data-test-id=city] .input__control").sendKeys(city);
@@ -85,6 +101,7 @@ public class TestCardDelivery {
     }
 
     @Test
+    @Order(5)
     void shouldSendValidNameWithЁ() {
         $("[data-test-id=city] .input__control").sendKeys(city);
         $("[data-test-id=date] .input__control").doubleClick().sendKeys(Keys.DELETE);
@@ -101,6 +118,7 @@ public class TestCardDelivery {
     }
 
     @Test
+    @Order(6)
     void shouldSendInvalidPhoneNumber(){
         $("[data-test-id=city] .input__control").sendKeys(city);
         $("[data-test-id=date] .input__control").doubleClick().sendKeys(Keys.DELETE);

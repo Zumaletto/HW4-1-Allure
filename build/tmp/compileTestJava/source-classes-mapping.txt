@@ -1,4 +1,0 @@
-ru/netology/card/DataGenerator.java
- ru.netology.card.DataGenerator
-ru/netology/card/TestCardDelivery.java
- ru.netology.card.TestCardDelivery
